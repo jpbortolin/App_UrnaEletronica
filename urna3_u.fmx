@@ -1,0 +1,140 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 480
+  ClientWidth = 330
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Size.Width = 330.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Basquete'
+    TabOrder = 7
+  end
+  object Label2: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Position.Y = 41.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Total:'
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Position.Y = 147.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Total:'
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Position.Y = 106.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Futebol'
+    TabOrder = 4
+  end
+  object Label5: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Position.Y = 65.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    TabOrder = 6
+  end
+  object Label6: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Position.Y = 212.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Total de votos'
+    TabOrder = 3
+  end
+  object Label7: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Position.Y = 171.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    TabOrder = 5
+  end
+  object Label8: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Position.Y = 253.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Total:'
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Align = Bottom
+    StyledSettings = [Family, FontColor]
+    Position.Y = 400.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Text = 'Apura'#231#227'o'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Align = Bottom
+    StyledSettings = [Family, FontColor]
+    Position.Y = 440.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Sair'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    OnClick = Button2Click
+  end
+end
