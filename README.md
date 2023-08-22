@@ -1,2 +1,2 @@
 # App_UrnaEletronica
-Electronic ballot box simulation application
+Electronic ballot box simulation application in RAD Studio - Delphi
